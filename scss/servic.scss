@@ -223,6 +223,8 @@ body {
 
 .content {
 	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
 
 	.header {
 		color: #ffffff;
@@ -469,6 +471,7 @@ body {
 	.footer {
 		color: #ffffff;
 		background: #001821;
+		margin-top: auto;
 
 		&__box {
 			display: flex;
