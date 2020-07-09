@@ -1,0 +1,25 @@
+header {
+	&__preview {
+	}
+}
+.preview {
+	width: 510px;
+	margin-bottom: 257px;
+
+	&__title {
+		font-weight: bold;
+		font-size: 72px;
+		margin-bottom: 26px;
+		line-height: 1.2;
+	}
+
+	&__text {
+		font-size: 18px;
+		margin-bottom: 42px;
+	}
+
+	&__button {
+		background-color: #da0100;
+		color: #ffffff;
+	}
+}

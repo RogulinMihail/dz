@@ -1,0 +1,58 @@
+.footer {
+	color: #ffffff;
+	background: #001821;
+}
+.footer__border-top {
+	border-top: #1a3038 1px;
+}
+.footer__box {
+	display: flex;
+
+	justify-content: space-between;
+
+	align-items: center;
+	min-height: 130px;
+}
+
+.footer__col {
+	display: flex;
+
+	align-items: center;
+}
+
+.footer__col--align-righy {
+	display: flex;
+
+	justify-content: flex-end;
+}
+.socials__linc--te {
+	background-image: url(./../../img/icons/socials/t.png);
+}
+
+.socials__linc--te:hover {
+	background-image: url(./../../img/icons/socials/t2.png);
+}
+
+.socials__linc--vk {
+	background-image: url(../../img/icons/socials/vk.png);
+}
+
+.socials__linc--vk:hover {
+	background-image: url(../../img/icons/socials/vk2.png);
+}
+
+.socials__linc--f {
+	background-image: url(../../img/icons/socials/f.png);
+}
+
+.socials__linc--f:hover {
+	background-image: url(../../img/icons/socials/f2.png);
+}
+
+.socials__linc--in {
+	background-image: url(../../img/icons/socials/in.png);
+}
+
+.socials__linc--in:hover {
+	background-image: url(../../img/icons/socials/in2.png);
+}

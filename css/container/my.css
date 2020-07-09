@@ -1,0 +1,56 @@
+.my {
+	margin-bottom: 47px;
+}
+
+.my__box {
+	display: flex;
+}
+
+.my__box::before {
+	content: "";
+	display: block;
+
+	width: 488px;
+	height: 502px;
+	background: url(../../img/mu.png) center center/cover no-repeat;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.my__info {
+	margin-left: -130px;
+	margin-top: 107px;
+	max-width: 783px;
+	min-height: 453px;
+	border-radius: 8px;
+	overflow: hidden;
+	display: flex;
+}
+
+.my__info--img {
+	position: absolute;
+}
+
+.my__inner {
+	position: relative;
+	color: #303030;
+	padding: 75px 100px;
+	width: 780px;
+}
+
+.my__title {
+	font-size: 34px;
+	font-weight: bold;
+	margin-bottom: 36px;
+}
+
+.my__test {
+	font-size: 16px;
+	margin-bottom: 18px;
+	line-height: 1.7;
+}
+
+.my__button {
+	background: #f5170e;
+	color: #ffffff;
+}

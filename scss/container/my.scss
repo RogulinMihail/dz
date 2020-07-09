@@ -1,0 +1,52 @@
+.my {
+	margin-bottom: 78px;
+	&::before {
+		content: "";
+		display: inline-block;
+		vertical-align: top;
+		width: 488px;
+		height: 502px;
+		background: url(../../img/mu.png) center center / cover no-repeat;
+		border-radius: 4px;
+		overflow: hidden;
+	}
+
+	&__info {
+		display: inline-block;
+		vertical-align: top;
+		margin-left: -132px;
+		margin-top: 105px;
+	}
+
+	&__info--img {
+		width: 783px;
+		height: 453px;
+		position: absolute;
+		border-radius: 8px;
+		overflow: hidden;
+	}
+
+	&__inner {
+		position: relative;
+		color: #303030;
+		padding: 75px 100px;
+		width: 780px;
+	}
+
+	&__title {
+		font-size: 34px;
+		font-weight: bold;
+		margin-bottom: 36px;
+	}
+
+	&__test {
+		font-size: 16px;
+		margin-bottom: 18px;
+		line-height: 1.7;
+	}
+
+	&__button {
+		background: #f5170e;
+		color: #ffffff;
+	}
+}

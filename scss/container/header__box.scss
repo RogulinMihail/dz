@@ -1,0 +1,58 @@
+.header {
+	&__box {
+		min-height: 80px;
+		margin-bottom: 130px;
+	}
+}
+.logo {
+	display: block;
+	top: 18.5px;
+	&__link {
+	}
+
+	&__img {
+	}
+}
+.menu {
+	top: 30px;
+	left: 164px;
+	&__list {
+		display: block;
+	}
+
+	&__item {
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 50px;
+	}
+
+	&__link {
+		font-size: 14px;
+		text-decoration: none;
+	}
+
+	&__link--active {
+		color: #f5170e;
+	}
+}
+.contact {
+	top: 18px;
+	right: 0;
+	text-align: right;
+	&__phone {
+		display: inline-block;
+		font-size: 26px;
+		text-decoration: none;
+		margin-bottom: 5px;
+	}
+
+	&__tame {
+		font-size: 13px;
+		text-decoration: underline;
+	}
+
+	&__contact {
+		font-size: 11px;
+		margin-bottom: 10px;
+	}
+}

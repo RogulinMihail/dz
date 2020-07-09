@@ -1,0 +1,57 @@
+.footer {
+	&__bloc {
+		position: relative;
+		min-height: 150px;
+	}
+}
+
+.socials {
+	position: absolute;
+	top: 22px;
+	left: 705px;
+
+	&__list {
+		display: block;
+		padding: 0;
+		margin: 0;
+	}
+	&__item {
+		display: inline-block;
+		text-decoration: none;
+		width: 36px;
+		height: 36px;
+		margin-right: 6px;
+	}
+
+	&__linc--te {
+		background-image: url(../../img/icons/socials/t.png);
+	}
+
+	&__linc--te:hover {
+		background-image: url(../../img/icons/socials/t2.png);
+	}
+
+	&__linc--vk {
+		background-image: url(../../img/icons/socials/vk.png);
+	}
+
+	&__linc--vk:hover {
+		background-image: url(../../img/icons/socials/vk2.png);
+	}
+
+	&__linc--f {
+		background-image: url(../../img/icons/socials/f.png);
+	}
+
+	&__linc--f:hover {
+		background-image: url(../../img/icons/socials/f2.png);
+	}
+
+	&__linc--in {
+		background-image: url(../../img/icons/socials/in.png);
+	}
+
+	&__linc--in:hover {
+		background-image: url(../../img/icons/socials/in2.png);
+	}
+}

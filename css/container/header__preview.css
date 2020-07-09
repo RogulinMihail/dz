@@ -1,0 +1,20 @@
+.preview {
+}
+
+.preview__title {
+	width: 45%;
+	font-weight: bold;
+	font-size: 72px;
+	margin-bottom: 26px;
+	line-height: 1.2;
+}
+
+.preview__text {
+	font-size: 18px;
+	margin-bottom: 42px;
+}
+
+.preview__button {
+	background-color: #da0100;
+	color: #ffffff;
+}

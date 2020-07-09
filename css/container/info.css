@@ -1,0 +1,98 @@
+.info__title {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 54px;
+}
+
+.info__list {
+	margin-bottom: 58px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.info__item {
+	vertical-align: top;
+	width: 555px;
+	margin-right: 2.89%;
+	flex: 1;
+}
+
+.info__item:last-child {
+	margin-right: 0px;
+}
+
+.single-info {
+	overflow: hidden;
+	border-radius: 7px;
+	position: relative;
+}
+
+.single-info__img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+.single-info__box {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 25px 31px;
+	min-height: 140px;
+}
+
+.single-info__dete {
+	font-size: 14px;
+	margin-bottom: 22px;
+}
+
+.single-info__subtitle {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+
+.single-info__text {
+	font-size: 16px;
+	margin-bottom: 26px;
+}
+
+.paginator {
+	margin-bottom: 155px;
+	display: flex;
+	justify-content: center;
+}
+
+.paginator__info {
+	font-size: 16px;
+	margin-right: 5px;
+}
+
+.paginator__list {
+	display: flex;
+	margin-left: 20px;
+}
+
+.paginator__item {
+	font-size: 16px;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+.paginator__link {
+	font-size: 18px;
+	font-weight: bold;
+	height: 18px;
+
+	line-height: 18px;
+}
+
+.paginator__link--active {
+	padding: 5px 12px;
+	border-radius: 50%;
+	background: #ffffff;
+	color: #f5170e;
+}
