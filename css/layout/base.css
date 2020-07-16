@@ -177,11 +177,15 @@ body {
 
 .socials__list {
 	display: flex;
-	margin-right: 64px;
+	margin-right: 74px;
 }
 
 .socials__item {
 	width: 36px;
 	height: 36px;
 	margin-right: 10px;
+}
+
+.socials__item:last-child {
+	margin-right: 0px;
 }

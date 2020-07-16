@@ -276,9 +276,11 @@ body {
 				display: flex;
 			}
 			&__item {
-				font-style: 14px;
 				letter-spacing: 1.5px;
 				margin-right: 5px;
+			}
+			&__item:last-child {
+				margin-right: 0px;
 			}
 
 			&__item--aktive {
@@ -314,7 +316,7 @@ body {
 				display: flex;
 				flex-direction: column;
 				align-items: center;
-				margin-bottom: 26px;
+				margin-bottom: 74px;
 			}
 
 			&__item {
@@ -322,6 +324,10 @@ body {
 				justify-content: space-between;
 				margin-bottom: 50px;
 				justify-content: center;
+			}
+
+			&__item:last-child {
+				margin-bottom: 0px;
 			}
 
 			&__img {
@@ -408,6 +414,7 @@ body {
 				display: flex;
 				flex-direction: column;
 				padding-top: 93px;
+				margin-bottom: 58px;
 			}
 			&__active:hover {
 				background-color: #f4f5f5;
@@ -420,7 +427,6 @@ body {
 
 			&__box {
 				min-height: 180px;
-				margin-bottom: 58px;
 			}
 
 			&__list {
